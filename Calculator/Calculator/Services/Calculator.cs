@@ -2,9 +2,9 @@
 {
     public class Calculator : ICalculator
     {
-        public double Calculate(string computation)
+        public ComputationResult Calculate(Computation computation)
         {
-            throw new System.NotImplementedException();
+            return new ComputationResult();
         }
     }
 }
